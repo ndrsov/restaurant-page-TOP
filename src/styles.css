@@ -1,3 +1,13 @@
+:root {
+  --lapis-lazuli: hsla(206, 51%, 37%, 1);
+  --cerulean: hsla(203, 48%, 44%, 1);
+  --platinum: hsla(90, 8%, 85%, 1);
+  --indigo-dye: hsla(202, 61%, 22%, 1);
+  --sky-blue: hsla(194, 52%, 67%, 1);
+}
+
 body {
-  background-color: #f1f1f1;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--platinum);
+  color: var(--indigo-dye);
 }
