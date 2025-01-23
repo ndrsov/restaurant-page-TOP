@@ -7,7 +7,7 @@ export default function loadHome() {
   homeDiv.innerHTML = `
       <h1>Welcome to My TOP Restaurant!</h1>
       <p>We serve the best Mexican-Asian mix food in town. Visit us to enjoy our delicious menu.</p>
-      <img src="https://via.placeholder.com/400x300" alt="Restaurant Image">
+      <img src="https://placehold.co/400x300" alt="Restaurant Image">
     `;
   content.appendChild(homeDiv);
 }

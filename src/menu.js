@@ -13,7 +13,7 @@ export default function loadMenu() {
       <li>Pasta - $15</li>
       <li>Tacos - $8</li>
     </ul>
-        <img src="https://via.placeholder.com/400x300" alt="Menu Image">
+        <img src="https://placehold.co/400x300" alt="Menu Image">
       `;
   content.appendChild(menuDiv);
 }
