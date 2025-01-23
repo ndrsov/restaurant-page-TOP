@@ -1,7 +1,7 @@
 import './styles.css';
-import { loadHome } from './home';
-import { loadMenu } from './menu';
-import { loadContact } from './contact';
+import loadHome from './home';
+import loadMenu from './menu';
+import loadContact from './contact';
 
 // Initialize home page
 loadHome();
