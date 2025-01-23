@@ -10,4 +10,45 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: var(--platinum);
   color: var(--indigo-dye);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--indigo-dye);
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background-color: var(--cerulean);
+  font-weight: bold;
+  color: var(--platinum);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--lapis-lazuli);
+}
+
+#content {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
