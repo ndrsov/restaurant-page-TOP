@@ -6,7 +6,6 @@ export default function loadMenu() {
   const menuDiv = document.createElement('div');
   menuDiv.innerHTML = `
         <h1>Menu</h1>
-        <p>Menu</p>
         <ul>
       <li>Pizza - $12</li>
       <li>Burger - $10</li>
